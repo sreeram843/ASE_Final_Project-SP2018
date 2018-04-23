@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\ar2\SmartMath\openCVLibrary300\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2eda4115eca6958188f3d337515b38ecc9eddf8">
+        <dex dex="D:\ar2\SmartMath\smartMath\build\intermediates\pre-dexed\debug\classes_6cf2d1ea446490a118ac83a5fb85bc0b408bcd7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ar2\SmartMath\smartMath\libs\CoreMathImgProc-1.7.4.67.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fba203d39d1e76f8d151366709c8b1869abf6b70">
+        <dex dex="D:\ar2\SmartMath\smartMath\build\intermediates\pre-dexed\debug\CoreMathImgProc-1.7.4.67_d28eaa3bc0b0292d447409abed658059b195c1f2.jar" />
+    </item>
+
+</items>

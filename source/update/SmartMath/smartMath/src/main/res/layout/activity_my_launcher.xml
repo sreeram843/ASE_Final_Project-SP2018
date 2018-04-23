@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cyzapps.SmartMath.MyLauncher">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/arbg"
+        android:layout_height="300dp" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:onClick="go2"
+        android:background="#ffddaa"
+        android:textColor="#0000ff"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:text="Smart Geometry"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:background="#ffddaa"
+        android:textColor="#0000ff"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:text="Smart Maths"
+        android:onClick="go1"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,81 @@
+<svg width="240" height="240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css"><![CDATA[
+	#spinnerSVG, #spinnerSVGTiny {
+	  stroke-dasharray: 100px;
+	  stroke-dashoffset: 100px;
+	  animation: spinnerAnimation 2000ms ease alternate infinite;
+	}
+
+	#spinnerSVGInner {
+	  stroke-dasharray: 100px;
+	  stroke-dashoffset: 100px;
+	  animation: spinnerAnimationRadius 2000ms ease alternate-reverse infinite;
+	}
+
+	@keyframes spinnerAnimation {
+	  0% {
+		stroke-dasharray: 10px;
+		stroke-dashoffset: 100px;
+	  }
+	  100% {
+		stroke-dasharray: 100px;
+		stroke-dashoffset: 300px;
+	  }
+	}
+
+	@keyframes spinnerAnimationRadius {
+	  0% {
+		stroke-dasharray: 10px;
+		stroke-dashoffset: 100px;
+		r: 50;
+	  }
+	  50% {
+		r: 80;
+	  }
+	  100% {
+		stroke-dasharray: 100px;
+		stroke-dashoffset: 300px;
+		r: 50;
+	  }
+	}
+
+	#bgCircle, #bgCircleTiny {
+		animation: circleStroke 1000ms ease alternate infinite;
+	}
+
+	#bgCircleInner {
+		animation: circleStrokeRadius 1000ms ease alternate-reverse infinite;
+	}
+
+	@keyframes circleStroke {
+	  0% {
+		stroke: #333;
+	  }
+	  100% {
+		stroke: #ff9900;
+	  }
+	}
+
+	@keyframes circleStrokeRadius {
+	  0% {
+		stroke: #333;
+		r: 50;
+	  }
+	  100% {
+		stroke: #ff9900;
+		r: 80;
+	  }
+	}
+    ]]></style>
+  </defs>
+	
+  <circle id="bgCircle" r="90" cy="120" cx="120" stroke-width="1" stroke="#333" fill="none"/>
+  <circle id="spinnerSVG" r="90" cy="120" cx="120" stroke-width="4" stroke="red"  fill="none"/>
+	
+  <circle id="bgCircleInner" r="50" cy="120" cx="120" stroke-width="1" stroke="#333" fill="none"/>
+  <circle id="spinnerSVGInner" r="50" cy="120" cx="120" stroke-width="4" stroke="red"  fill="none"/>
+	
+  <circle id="bgCircleTiny" r="30" cy="120" cx="120" stroke-width="1" stroke="#333" fill="none"/>
+  <circle id="spinnerSVGTiny" r="30" cy="120" cx="120" stroke-width="4" stroke="red"  fill="none"/>
+</svg>
