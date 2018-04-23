@@ -1,0 +1,4 @@
+#Thu Apr 12 20:20:16 IST 2018
+base.0=D\:\\SmartMath\\smartMath\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\CoreMathImgProc_aeafdd99d66f4152dc44f198692f58db1d2ee99d
+renamed.0=classes.dex
+file.0=D\:\\SmartMath\\smartMath\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\CoreMathImgProc_aeafdd99d66f4152dc44f198692f58db1d2ee99d\\classes.dex
